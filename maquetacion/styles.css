@@ -16,15 +16,52 @@ p {
 button {
     background-color: white;
     border-radius: 30px;
-    padding: 0px 1.5em;
+    padding: 0px 2em;
     height: 2.5em;
     border: 2px solid black;
     font-size: 0.8em;
+    white-space: nowrap;
     width: 8em;
 }
 
+#button-contact {
+    width: 10em
+}
+
+#sumate-button {
+    color: #6b53f0;
+    border-color: #6b53f0;
+}
+
+#sumate-button:hover {
+    background-color: #6b53f0;
+    color: white;
+    transition: 0.5s;
+  }
+
 div#navbar-left img {
+    margin-left: 40px;
     width: 8em;
+}
+
+div#navbar-right {
+    width: 8em;
+}
+
+#description {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    width: 580px;
+    padding-bottom: 20px;
+}
+
+#description-container {
+    padding: 5em 1em;
+    width: 100%;
+    display: grid;
+    place-items: center;
 }
 
 @media (width >= 2500px) {
